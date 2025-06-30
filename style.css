@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 60px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 300px;
+    border: 2px solid #757575;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card h2, .product-card p {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+body > input[type='text'] {
+    width: 90%;
+    margin: 20px 5%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#product-modal-btn {
+   border-radius: 50%;
+   padding: 10px; 
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+}
+
+#product-modal-btn svg {
+    width: 50px;
+    fill: white;
+}
+
+.modal-body > * {
+    margin: 10px 5%;
+}
+
+.modal-body > input, textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px
+}
+h4 {
+    text-align: center;
+}
+
+.char-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.char-section input {
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.char-badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.char-badge {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(224, 62, 62);
+}
+
+.char-badge svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    transform: translate(30%,-30%);
+    fill: black;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid white
+}
+.char-badge p {
+    margin: 0;
+}
+
+#add-badge-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#add-badge-btn{
+    border: none;
+    color: white;
+    background-color: rgb(38, 157, 226);
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition: 0.2s;
+
+}
+#add-badge-btn:hover {
+     background-color: rgb(27, 119, 172);
+}
+
+select {
+    margin-left:5%;
+}

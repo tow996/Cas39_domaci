@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Google Pixel 6 Pro",
+      "price": 899.99,
+      "image": "https://amateurphotographer.com/wp-content/uploads/sites/7/2021/11/pixel-6-pro-rear-P1088727_cropped.jpg?w=435&h=350&crop=1",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "color": "Cloudy White",
+        "capacity": "128 GB"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Apple iPhone 12 Mini, 256GB, Blue",
+      "price": 699.99,
+      "image": "https://www.tehnomedia.rs/image/71882.jpg?tip=webp&tip_slike=0",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": null
+    },
+    {
+      "id": "3",
+      "name": "Apple iPhone 12 Pro Max",
+      "price": 1099.99,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_12_pro_max_graphite_pdp_image_position-2__en-us_4.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "color": "Cloudy White",
+        "capacity": "512 GB"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Apple iPhone 11, 64GB",
+      "price": 389.99,
+      "image": "https://www.winwin.rs/media/catalog/product/cache/aa01455892d233ac3aea63acd876143d/1/1/1131867_000000000001131867-main-webp-580-conversion-media-format_1.webp",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "color": "Purple"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Samsung Galaxy Z Fold2",
+      "price": 689.99,
+      "image": "https://www.dxomark.com/wp-content/uploads/medias/post-63759/samsung_galaxy_z-fold2-1.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "color": "Brown"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Apple AirPods",
+      "price": 120,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/m/m/mme73.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "generation": "3rd"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Apple MacBook Pro 16",
+      "price": 1849.99,
+      "image": "https://techpoets.com/img-product/428/apple-macbook-pro-16-m1-pro-1tb.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "year": 2019,
+        "cpu model": "Intel Core i9",
+        "hard disk size": "1 TB"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Apple Watch Series 8",
+      "price": 399.99,
+      "image": "https://cdn.mos.cms.futurecdn.net/mfJNvNwN8CjPvLF7H8fSnQ.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "strap Colour": "Elderberry",
+        "case Size": "41mm"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Beats Studio3 Wireless",
+      "price": 349.99,
+      "image": "https://i5.walmartimages.com/seo/Beats-Studio3-Wireless-Noise-Cancelling-Headphones-with-Apple-W1-Headphone-Chip-Defiant-Black-Red_61f9e0aa-b519-4ad1-95f5-8a8265f388f7.3430280295f34ec3d87cc41fb9d73657.jpeg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "color": "Red",
+        "reason-to-buy": "High-performance wireless noise cancelling headphones"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Apple iPad Mini 5th Gen",
+      "price": 399.99,
+      "image": "https://m.media-amazon.com/images/I/71ZZtEr4kaL.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "capacity": "64 GB",
+        "screen size": 7.9
+      }
+    },
+    {
+      "id": "11",
+      "name": "Apple iPad Air",
+      "price": 419.99,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/ipad_air_wi-fi_purple_pdp_image_position-1b__wwen_2.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi laborum rem. Temporibus sequi sunt accusantium reprehenderit doloremque accusamus error consectetur? Consectetur voluptatibus sed nihil repellendus explicabo consequatur nobis vel?",
+      "characteristics": {
+        "generation": "4th",
+        "capacity": "64 GB"
+      }
+    },
+    {
+      "id": "2ac3",
+      "name": "Phone",
+      "price": 500,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_12_pro_max_graphite_pdp_image_position-2__en-us_4.jpg",
+      "description": "asdas dasdas dasd asd adadaassd",
+      "characteristics": null
+    },
+    {
+      "id": "cd5e",
+      "name": "laptop",
+      "price": 600,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_12_pro_max_graphite_pdp_image_position-2__en-us_4.jpg",
+      "description": "sadasd asd asdasdasdasdasda",
+      "characteristics": null
+    },
+    {
+      "id": "23be",
+      "name": "phone",
+      "price": 564,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_12_pro_max_graphite_pdp_image_position-2__en-us_4.jpg",
+      "description": "erwerwer qrwer w wqer wqrqwreqr",
+      "characteristics": null
+    },
+    {
+      "id": "0a34",
+      "name": "sadasdsa",
+      "price": 435,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_12_pro_max_graphite_pdp_image_position-2__en-us_4.jpg",
+      "description": "saddasdasd",
+      "characteristics": null
+    },
+    {
+      "id": "c7a1",
+      "name": "phone",
+      "price": 356,
+      "image": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_12_pro_max_graphite_pdp_image_position-2__en-us_4.jpg",
+      "description": "sada dasd  dsadasdsa dsadsadsads",
+      "characteristics": {
+        "display": "10"
+      }
+    },
+    {
+      "id": "70e7",
+      "name": "Lmao Best Phone",
+      "price": 542,
+      "image": "https://www.tehnomedia.rs/image/71882.jpg",
+      "description": "adjahdjashjdksadsa",
+      "in_stock": true,
+      "characteristics": null
+    }
+  ]
+}
