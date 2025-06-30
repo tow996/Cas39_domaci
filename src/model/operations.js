@@ -1,17 +1,32 @@
-const filterData = (data, keyword)=> {
-    return data.filter(product => product.name.toLowerCase().includes(keyword))
+const operations = {
+    keyword: '',
+    sort: ''
 }
 
-const sortData = (data, howToSort) => {
-    if(howToSort === 'unordered') {
+const filterData = (data)=> {
+    return data.filter(product => product.name.toLowerCase().includes(operations.keyword))
+}
+
+const sortData = (data) => {
+    if(operations.sort === 'unordered') {
         return data;
     }
-    if(howToSort === 'ascending') {
+    if(operations.sort === 'ascending') {
         return data.sort((a, b) => a.price - b.price);
     }
-    if(howToSort === 'descending') {
+    if(operations.sort === 'descending') {
         return data.sort((a, b) => b.price - a.price);
     }
 }
 
-export {filterData, sortData}
+const operate = (data) => {
+    if(operations.keyword) {
+        data = filterData(data)
+    }
+    if(operations.sort) {
+        data = sortData(data)
+    }
+    return data;
+}
+
+export {operate, operations}

@@ -10,15 +10,25 @@ const Controller = ()=> {
     const {renderContent, applySearchInputListener,searchInput , applyOpenModalListener, sortInput, applySortInputListener} = view.HomePage()
     const {clearInputs, removeListeners, setupListeners} = view.Modal()
 
-    const searchInputLogic = () => model.fetchData(renderContent, (data)=> model.filterData(data, searchInput.value ))
-    const priceOrderLogic = () => model.fetchData(renderContent, (data) => model.sortData(data, sortInput.value))
+    const operateDataLogic = () => model.fetchData(renderContent, (data) => model.operate(data));
+
+    const searchInputLogic = () => { 
+        model.operations.keyword = searchInput.value;
+        console.log(model.operations)
+        return operateDataLogic();
+    }
+
+    const sortInputLogic = () => {
+        model.operations.sort = sortInput.value;
+        return operateDataLogic();
+    }
 
     const handleBadge = ()=> {
         const addBadge = (key,value)=> {
             model.newProductItem.characteristics[key] = value
         }
         const deleteBadge = (key)=> {
-              delete model.newProductItem.characteristics[key]      
+            delete model.newProductItem.characteristics[key]      
         }
         return {
             addBadge,
@@ -109,7 +119,7 @@ const Controller = ()=> {
     const attachHandlers = () => {
             const debounceSearch = debounce(searchInputLogic , 500)
             applySearchInputListener(debounceSearch)
-            applySortInputListener(priceOrderLogic)
+            applySortInputListener(sortInputLogic)
             applyOpenModalListener(()=> {
                 clearInputs()
                 removeListeners(formValidation, handleBadge)

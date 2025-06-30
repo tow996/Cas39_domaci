@@ -1,5 +1,5 @@
 import { createProduct, fetchData } from "./api.js"
-import { filterData, sortData } from "./operations.js"
+import { operations, operate } from "./operations.js"
 
 const Model = ()=> {
     const newProductItem = {
@@ -12,11 +12,11 @@ const Model = ()=> {
     }
 
     return {
-        filterData ,
-        createProduct,
         fetchData,
-        sortData,
-        newProductItem
+        createProduct,
+        newProductItem,
+        operate,
+        operations
     }
 }
 
