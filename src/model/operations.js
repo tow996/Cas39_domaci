@@ -3,7 +3,7 @@ const filterData = (data, keyword)=> {
 }
 
 const sortData = (data, howToSort) => {
-    if(howToSort === 'unordrered') {
+    if(howToSort === 'unordered') {
         return data;
     }
     if(howToSort === 'ascending') {
